@@ -1,0 +1,158 @@
+.widget-caption-unique-class-name{
+    background:#fff;
+}
+.card-widgets__widget__body{
+    padding:0px;
+}
+.widget-body-free-slots-yclients{
+    background:#fff;
+    overflow-y:auto;
+    height:335px;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+.psy-list{
+    display:flex;
+    flex-direction:column;
+}
+.psy-card{
+    display:flex;
+    flex-direction:row;
+    margin:0px 10px 0px 10px;
+    padding:5px;
+    border-bottom:1px solid #eee;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.psy-card:hover{
+    background:#eee;
+}
+.psy-ava{
+    border-radius:35px;
+}
+.psy-data{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+}
+.psy-name{
+    font-weight:600;
+}
+.psy-spec{
+    font-size:12px;
+    color:#bbb;
+}
+
+.back-to-psy-list{
+    width:50px;
+    height:50px;
+    background:#bbb;
+}
+
+.psy-schedule-header{
+    display:flex;
+    flex-direction: row;
+    height:120px;
+    border-bottom:1px solid #eee;
+}
+.psy-schedule-header-data{
+    display:flex;
+    flex-direction: column;
+    padding-top:15px;
+    width:170px;
+    text-align: center;
+}
+.psy-schedule-ava{
+    border-radius:50px;
+    height:50px;
+    width:50px;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+.psy-schedule-name{
+    font-weight:600;
+}
+.psy-schedule-spec{
+    font-size:12px;
+    color:#bbb;
+}
+
+.list-legend{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.help-box{
+    width:25px;
+    height: 25px;
+    border-radius:8px;
+}
+.psychosomatic-help{
+    background:#7ed2e7;
+}
+.base-help{
+    background:#fbdfdf;
+}
+
+.schedule-list-text-date{
+    width: 240px;
+    height: 28px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #bbb;
+    border-top: 1px solid #eee;
+}
+.schedule-list-time-of-day-box{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+.psy-base-box{
+    background: #fbdfdf;
+    max-width:40px;
+    padding:5px;
+    border-radius:8px;
+    font-weight:600;
+    float:left;
+    margin-left:10px;
+}
+.psychosomatic-box{
+    background: #7ed2e7;
+    max-width:40px;
+    padding:5px;
+    border-radius:8px;
+    font-weight:600;
+    color:#fff;
+    float:left;
+    margin-left:10px;
+}
+
+.embedded-form-field{
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    min-height: 25px;
+    width: 200px;
+    margin-left: 20px;
+}
+.embedded-form-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 65px;
+    background-color: #45abb5;
+    color:#fff;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.embedded-form-button:hover{
+    background-color:#87cfd5;
+}

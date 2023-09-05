@@ -1,0 +1,29 @@
+{
+    "widget":{
+        "name":"Виджет свободных окон",
+        "short_description":"Выбор свободных окон для записи у специалиста",
+        "description":"Виджет позволяет выбирать свободные окна для записи у специалиста",
+        "tour_description":"Описание виджета"
+    },
+    "settings":{
+        "login":"Логин",
+        "api_key":"ключ API",
+        "account":"Аккаунт"
+    },
+    "advanced":{
+        "title":"Заголовок меню в настройках"
+    },
+    "salesbot":{
+        "button_title":"Заголовок кнопки",
+        "button_caption":"Описание кнопки",
+        "button_title_default_value":"Заголовок кнопки",
+        "button_caption_default_value":"Описание кнопки",
+        "text":"Текст",
+        "number":"Число",
+        "url":"URL",
+        "handler_name":"Название обработчика"
+    },
+    "dp":{
+        "message": "Сообщение"
+    }
+}
